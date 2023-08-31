@@ -1,0 +1,99 @@
+.card {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #f8f8f81e;
+  border-radius: 10px;
+  width: 23rem;
+  height: 18rem;
+  color: black;
+  line-height: 1.2;
+  letter-spacing: 0.2rem;
+}
+
+.card:hover {
+  background-color: #ebebeb93;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.Swimming-card {
+  background-image: url("https://www.fossswimschool.com/content/uploads/2019/08/JLW_7099-copy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  width: 25rem;
+  height: 20rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.Dance-card {
+  background-image: url("https://elandancearts.ca/wp-content/uploads/2023/02/EDA-Website.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  width: 25rem;
+  height: 20rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+.Karate-card {
+  background-image: url("https://www.statesman.com/gcdn/authoring/2016/08/28/NAAS/ghows-TX-1f4e68a5-92dc-4e58-b3d8-a56c9e41eaad-b86dd432.jpeg?width=660&height=372&fit=crop&format=pjpg&auto=webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
+  width: 25rem;
+  height: 20rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
+    -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    inset 0 0 40px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .cards-section {
+    justify-content: center;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .Swimming-card,
+  .Dance-card,
+  .Karate-card {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    height: auto;
+  }
+
+  .Swimming-card,
+  .Dance-card,
+  .Karate-card {
+    margin: 5px;
+    width: 100%;
+    height: auto;
+  }
+}
